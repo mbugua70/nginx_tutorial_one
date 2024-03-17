@@ -1,2 +1,18 @@
 NGINX
 -- Terminology
+ listen       8080; - this one contains the keys and values.
+                    - they are known as directives
+
+ location / {
+            root   "G:/PROJECT_TWO/nginx/htdocs";
+            index  index.html index.htm;
+        }
+        -- the above code contains context and it contains directives
+
+
+MIME TYPES
+-- nginx comes with a bunch of mime types
+-- to include it in our project we will use include mime.type
+
+location Block
+-- allows us to hit differnt files or path we can hit. i.e html
