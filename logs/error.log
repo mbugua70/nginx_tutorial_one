@@ -2,3 +2,7 @@
 2024/03/16 20:17:07 [notice] 11600#13032: signal process started
 2024/03/16 20:17:46 [error] 9956#1992: *4 CreateFile() "G:\PROJECT_TWO\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
 2024/03/16 20:22:19 [notice] 9180#6824: signal process started
+2024/03/17 21:10:16 [error] 12760#12616: *21 "G:/PROJECT_TWO/nginx/htdocs/nginx_two/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_two/ HTTP/1.1", host: "localhost:8080"
+2024/03/17 21:10:36 [notice] 14036#15248: signal process started
+2024/03/17 21:10:43 [error] 12760#12616: *22 "G:/PROJECT_TWO/nginx/htdocs/nginx_two/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_two/ HTTP/1.1", host: "localhost:8080"
+2024/03/17 21:10:45 [error] 12760#12616: *23 "G:/PROJECT_TWO/nginx/htdocs/nginx_two/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_two/ HTTP/1.1", host: "localhost:8080"
