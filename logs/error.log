@@ -6,3 +6,19 @@
 2024/03/17 21:10:36 [notice] 14036#15248: signal process started
 2024/03/17 21:10:43 [error] 12760#12616: *22 "G:/PROJECT_TWO/nginx/htdocs/nginx_two/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_two/ HTTP/1.1", host: "localhost:8080"
 2024/03/17 21:10:45 [error] 12760#12616: *23 "G:/PROJECT_TWO/nginx/htdocs/nginx_two/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_two/ HTTP/1.1", host: "localhost:8080"
+2024/03/17 21:57:33 [notice] 12528#8036: signal process started
+2024/03/17 21:57:46 [error] 15172#11980: *28 CreateFile() "G:\PROJECT_TWO\nginx/html404" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_three/ HTTP/1.1", host: "localhost:8080"
+2024/03/17 21:57:49 [error] 15172#11980: *28 CreateFile() "G:\PROJECT_TWO\nginx/html404" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_three/ HTTP/1.1", host: "localhost:8080"
+2024/03/17 21:59:09 [notice] 3292#8100: signal process started
+2024/03/17 22:05:31 [notice] 3672#12336: signal process started
+2024/03/17 22:05:49 [error] 10744#6676: *34 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_four/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/nginx_four/1"
+2024/03/17 22:05:56 [error] 10744#6676: *34 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_four/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/nginx_four/4"
+2024/03/17 22:06:02 [error] 10744#6676: *34 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_four/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/nginx_four/4"
+2024/03/17 22:06:53 [error] 10744#6676: *34 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles/styles.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /nginx_four/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/nginx_four/4"
+2024/03/17 22:17:26 [emerg] 17188#5592: unexpected "}" in G:\PROJECT_TWO\nginx/conf/nginx.conf:68
+2024/03/17 22:18:03 [notice] 17272#3816: signal process started
+2024/03/17 22:21:49 [notice] 6036#13296: signal process started
+2024/03/17 22:22:01 [error] 8416#2228: *41 CreateFile() "G:\PROJECT_TWO\nginx/html/number" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /number HTTP/1.1", host: "localhost:8080"
+2024/03/17 22:22:13 [error] 8416#2228: *41 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /number/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/1"
+2024/03/17 22:22:19 [error] 8416#2228: *41 CreateFile() "G:\PROJECT_TWO\nginx/html/nginx_four/styles" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /number/styles/styles.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/2"
+2024/03/17 22:48:01 [notice] 15220#540: signal process started

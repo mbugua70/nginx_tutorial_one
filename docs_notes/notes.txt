@@ -16,3 +16,5 @@ MIME TYPES
 
 location Block
 -- allows us to hit differnt files or path we can hit. i.e html
+
+  NGINX AS  LOAD BALANCER
